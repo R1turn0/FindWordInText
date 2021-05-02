@@ -138,8 +138,7 @@ void FindWordInText::Print(const int &size, const string &word, map<string, set<
 int main()
 {
     FindWordInText t1("//home//r1turn0//WorkSpace//C++//FindWordInText//EnglishText.txt");
-//    t1.FindWord("only");
-    t1.FindWordCaseSensitive("only");
+    t1.FindWord("only");
     // "a `to` b
 
     return 0;
