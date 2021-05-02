@@ -116,10 +116,7 @@ bool FindWordInText::FindWord(const string &str)
     return true;
 }
 
-bool FindWordInText::FindWordCaseSensitive(const string &str)
-{
-
-}
+bool FindWordInText::FindWordCaseSensitive(const string &str){}
 
 void FindWordInText::Print(const int &size, const string &word, map<string, set<int>>::iterator &it_map)
 {
